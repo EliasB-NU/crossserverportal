@@ -20,20 +20,10 @@
 				"value": "de.rgbpixl.Crossserverportal",
 				"adapter": "kotlin"
 			}
-		],
-		"client": [
-			{
-				"value": "de.rgbpixl.CrossserverportalClient",
-				"adapter": "kotlin"
-			}
 		]
 	},
 	"mixins": [
-		"crossserverportal.mixins.json",
-		{
-			"config": "crossserverportal.client.mixins.json",
-			"environment": "client"
-		}
+
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",

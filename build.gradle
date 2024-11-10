@@ -25,7 +25,6 @@ loom {
 	mods {
 		"crossserverportal" {
 			sourceSet sourceSets.main
-			sourceSet sourceSets.client
 		}
 	}
 
